@@ -12,14 +12,14 @@ require (
 	github.com/jackc/pgproto3/v2 v2.2.0 // indirect
 	github.com/jinzhu/configor v1.2.1
 	github.com/labstack/echo-contrib v0.11.0
-	github.com/labstack/echo/v4 v4.6.3
+	github.com/labstack/echo/v4 v4.9.0
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
 	github.com/stretchr/testify v1.9.0
-	github.com/swaggo/echo-swagger v1.1.4
-	github.com/swaggo/swag v1.7.8
+	github.com/swaggo/echo-swagger v1.4.1
+	github.com/swaggo/swag v1.8.12
 	github.com/valyala/fasttemplate v1.2.1
 	go.uber.org/zap v1.20.0
 	golang.org/x/crypto v0.24.0
@@ -37,6 +37,8 @@ require (
 	gorm.io/gorm v1.22.5
 )
 
+require github.com/prometheus/client_golang v1.20.5
+
 require (
 	github.com/BurntSushi/toml v1.0.0 // indirect
 	github.com/KyleBanks/depth v1.2.1 // indirect
@@ -45,6 +47,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
 	github.com/go-openapi/spec v0.20.4 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
@@ -67,11 +70,10 @@ require (
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/client_golang v1.20.5 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.55.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
-	github.com/swaggo/files v0.0.0-20210815190702-a29dd2bc99b2 // indirect
+	github.com/swaggo/files/v2 v2.0.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
