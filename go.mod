@@ -19,7 +19,7 @@ require (
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible // indirect
 	github.com/stretchr/testify v1.9.0
 	github.com/swaggo/echo-swagger v1.1.4
-	github.com/swaggo/swag v1.7.8
+	github.com/swaggo/swag v1.16.4
 	github.com/valyala/fasttemplate v1.2.1
 	go.uber.org/zap v1.20.0
 	golang.org/x/crypto v0.24.0
@@ -36,6 +36,8 @@ require (
 	gorm.io/driver/sqlite v1.2.6
 	gorm.io/gorm v1.22.5
 )
+
+require github.com/prometheus/client_golang v1.20.5
 
 require (
 	github.com/BurntSushi/toml v1.0.0 // indirect
@@ -67,7 +69,6 @@ require (
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/client_golang v1.20.5 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.55.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
